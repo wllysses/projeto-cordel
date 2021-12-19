@@ -30,7 +30,7 @@ html, body {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 7vw;
+    font-size: 4em;
 }
 
 .cabecalho p {
@@ -53,7 +53,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 1.8em;
 }
 
 section p {
@@ -95,4 +95,22 @@ section p {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+@media (max-width: 425px) {
+    .cabecalho h1 {
+        font-size: 3em;
+    }
+
+    .cabecalho p {
+        font-size: 12px;
+    }
+
+    section {
+        font-size: 1.2em;
+    }
+
+    .rodape p {
+        font-size: 12px;
+    }
 }
